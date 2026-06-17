@@ -4344,6 +4344,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Switching:AP63203WU"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AP63203WU"
+				(at 2.54 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+				(at 0 -22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "2A Buck DC/DC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TSOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AP63203WU_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AP63203WU_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "BST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers
 				(hide yes)
@@ -6843,6 +7033,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Switching:AP63203WU")
+		(at 180.34 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1aa0692c-c67a-47b5-8c37-7e2b8639cb9e")
+		(property "Reference" "U6"
+			(at 180.34 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP63203WU"
+			(at 180.34 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 180.34 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+			(at 180.34 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 3.3V output voltage, TSOT-23-6"
+			(at 180.34 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66860b96-8f4a-4b2f-934f-cadca777d573")
+		)
+		(pin "6"
+			(uuid "eb14c4b2-a52d-40cb-a092-7ade5fcec5d0")
+		)
+		(pin "5"
+			(uuid "726cc1bf-2788-47af-8877-b4c236ca65f8")
+		)
+		(pin "4"
+			(uuid "f72dcf8b-b752-4888-a4b2-034dce44fddc")
+		)
+		(pin "2"
+			(uuid "e187217a-b6ee-48a9-8671-4509d094331f")
+		)
+		(pin "3"
+			(uuid "7201b0e6-5782-421e-9396-5c190bf5aaa8")
+		)
+		(instances
+			(project ""
+				(path "/807257e6-524f-404b-b91f-049b9c2bdd5b"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 46.99 161.29 0)
 		(unit 1)
@@ -7742,7 +8012,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "240Library:STA_CF14_STP"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 130.81 162.56 0)
 			(effects
 				(font
@@ -7949,7 +8219,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "240Library:STA_CF14_STP"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 118.11 177.8 0)
 			(effects
 				(font
@@ -8829,7 +9099,7 @@
 				)
 			)
 		)
-		(property "Footprint" "240Library:STA_CF14_STP"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 97.79 162.56 0)
 			(effects
 				(font
@@ -9267,7 +9537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "240Library:STA_CF14_STP"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 71.12 165.1 0)
 			(effects
 				(font
@@ -10002,7 +10272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "240Library:STA_CF14_STP"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 97.79 165.1 0)
 			(effects
 				(font
@@ -12402,7 +12672,7 @@
 				)
 			)
 		)
-		(property "Footprint" "240Library:STA_CF14_STP"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 71.12 176.53 0)
 			(effects
 				(font
