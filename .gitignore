@@ -3,6 +3,7 @@
 fp-info-cache
 _autosave-*
 *.bak
+datasheets/
 
 # OS
 .DS_Store
@@ -33,3 +34,5 @@ Release/
 
 # KiCAD local settings
 *.kicad_prl
+avio_proj_prac.md
+stm32.kicad_sch.local-backup
