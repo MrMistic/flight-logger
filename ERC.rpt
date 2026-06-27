@@ -1,0 +1,136 @@
+ERC report (2026-06-26T22:22:02-0500, Encoding UTF8)
+
+***** Sheet /
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(1956 mils, 600 mils): Symbol R20 Pin 1 [Passive, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(950 mils, 2050 mils): Symbol U1 Pin 2 [PC13, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(950 mils, 2150 mils): Symbol U1 Pin 3 [PC14, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(950 mils, 2250 mils): Symbol U1 Pin 4 [PC15, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(950 mils, 2650 mils): Symbol U1 Pin 20 [PB2, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2350 mils, 2150 mils): Symbol U1 Pin 29 [PA8, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(950 mils, 3050 mils): Symbol U1 Pin 42 [PB6, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(950 mils, 3150 mils): Symbol U1 Pin 43 [PB7, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(950 mils, 3250 mils): Symbol U1 Pin 45 [PB8, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2350 mils, 2450 mils): Symbol U1 Pin 32 [PA11, Bidirectional, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(3250 mils, 1100 mils): Symbol #PWR01 Pin 1 [Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2350 mils, 2550 mils): Symbol U1 Pin 33 [PA12, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(950 mils, 3350 mils): Symbol U1 Pin 46 [PB9, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(950 mils, 3450 mils): Symbol U1 Pin 21 [PB10, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(950 mils, 3550 mils): Symbol U1 Pin 25 [PB12, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(2350 mils, 2850 mils): Symbol U1 Pin 38 [PA15, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(950 mils, 3650 mils): Symbol U1 Pin 26 [PB13, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(950 mils, 3750 mils): Symbol U1 Pin 27 [PB14, Bidirectional, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(950 mils, 3850 mils): Symbol U1 Pin 28 [PB15, Bidirectional, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(2250 mils, 4850 mils): Symbol U6 Pin 5 [VCC, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(3750 mils, 4950 mils): Symbol Q2 Hidden pin 8 [Passive, Line]
+[pin_to_pin]: Pins of type Power output and Power output are connected
+    ; error
+    @(4450 mils, 4600 mils): Symbol #FLG01 Pin 1 [Power output, Line]
+    @(4650 mils, 6200 mils): Symbol U5 Pin 5 [BAT, Power output, Line]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(2300 mils, 6500 mils): Symbol R24 Pin 2 [Unspecified, Line]
+    @(1850 mils, 6850 mils): Symbol J2 Pin A5 [CC1, Bidirectional, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(2800 mils, 6500 mils): Symbol R24 Pin 1 [Unspecified, Line]
+    @(2800 mils, 6500 mils): Symbol #PWR054 Pin 1 [Power input, Line]
+[lib_symbol_mismatch]: Symbol 'BMI088' doesn't match copy in library '2026-04-12_18-39-20'
+    ; warning
+    @(6900 mils, 1600 mils): Symbol U2 [BMI088]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(3350 mils, 6400 mils): Symbol R11 Pin 2 [Unspecified, Line]
+    @(3350 mils, 6200 mils): Symbol D1 Pin 1 [K, Passive, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(4250 mils, 5900 mils): Symbol U5 Pin 4 [V_{CC}, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(2300 mils, 6950 mils): Symbol R23 Pin 2 [Unspecified, Line]
+    @(1850 mils, 6950 mils): Symbol J2 Pin B5 [CC2, Bidirectional, Line]
+[pin_to_pin]: Pins of type Unspecified and Open collector are connected
+    ; warning
+    @(3850 mils, 6400 mils): Symbol R11 Pin 1 [Unspecified, Line]
+    @(3850 mils, 6400 mils): Symbol U5 Pin 7 [~{CHRG}, Open collector, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(2800 mils, 6950 mils): Symbol R23 Pin 1 [Unspecified, Line]
+    @(2800 mils, 6950 mils): Symbol #PWR055 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Open collector are connected
+    ; warning
+    @(3850 mils, 6500 mils): Symbol R12 Pin 1 [Unspecified, Line]
+    @(3850 mils, 6500 mils): Symbol U5 Pin 6 [~{STDBY}, Open collector, Line]
+[pin_to_pin]: Pins of type Output and Output are connected
+    ; error
+    @(7600 mils, 1400 mils): Symbol U2 Pin 10 [SDO2, Output, Line]
+    @(7600 mils, 1300 mils): Symbol U2 Pin 15 [SDO1, Output, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(3850 mils, 7000 mils): Symbol R12 Pin 2 [Unspecified, Line]
+    @(3600 mils, 7000 mils): Symbol D2 Pin 1 [K, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(4650 mils, 6500 mils): Symbol R9 Pin 2 [Unspecified, Line]
+    @(4650 mils, 6500 mils): Symbol U5 Pin 2 [PROG, Passive, Line]
+[multiple_net_names]: Both +3.3V and BMI_VDD are attached to the same items; +3.3V will be used in the netlist
+    ; warning
+    @(2950 mils, 1000 mils): Symbol #PWR09 Pin 1 [Power input, Line]
+    @(8300 mils, 750 mils): Label 'BMI_VDD'
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(4650 mils, 7000 mils): Symbol R9 Pin 1 [Unspecified, Line]
+    @(4650 mils, 7000 mils): Symbol #PWR057 Pin 1 [Power input, Line]
+[lib_symbol_mismatch]: Symbol 'W25Q128JVSIQ' doesn't match copy in library '2026-04-12_18-39-20'
+    ; warning
+    @(8400 mils, 3300 mils): Symbol U4 [W25Q128JVSIQ]
+[lib_symbol_mismatch]: Symbol 'BMP388' doesn't match copy in library '2026-04-12_18-39-20'
+    ; warning
+    @(9850 mils, 1650 mils): Symbol U3 [BMP388]
+[multiple_net_names]: Both GND and VSS are attached to the same items; GND will be used in the netlist
+    ; warning
+    @(6150 mils, 6750 mils): Symbol #PWR0102 Pin 1 [Power input, Line]
+    @(10350 mils, 2050 mils): Symbol U3 Hidden pin 8 [VSS, Power input, Line]
+
+ ** ERC messages: 39  Errors 23  Warnings 16
