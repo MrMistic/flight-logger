@@ -7319,6 +7319,12 @@
 		(uuid "72b066cf-a246-44bd-a95f-7b16855d7fa3")
 	)
 	(junction
+		(at 82.55 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94e86c7c-9a94-4f92-b329-1fde10de8734")
+	)
+	(junction
 		(at 85.09 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7347,6 +7353,10 @@
 	(no_connect
 		(at 262.89 41.91)
 		(uuid "5a452e03-7a06-4d4c-8e6c-b95ebc27ca8b")
+	)
+	(no_connect
+		(at 95.25 125.73)
+		(uuid "cc000001-0000-4000-8000-0000000000f1")
 	)
 	(no_connect
 		(at 193.04 48.26)
@@ -8633,7 +8643,7 @@
 		(uuid "ba6abea4-76fd-46c0-8154-bc4ac22d87ba")
 	)
 	(label "SCK_MCU"
-		(at 49.69 15.24 0)
+		(at 49.53 15.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8643,7 +8653,7 @@
 		(uuid "bb000001-0000-4000-8000-0000000000a1")
 	)
 	(label "SPI1_SCK"
-		(at 49.69 22.86 0)
+		(at 49.53 22.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11423,6 +11433,72 @@
 			(project "stm32"
 				(path "/807257e6-524f-404b-b91f-049b9c2bdd5b"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 49.53 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37e1df4a-570f-4529-be82-dd75eae99d34")
+		(property "Reference" "#FLG03"
+			(at 49.53 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 49.53 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 49.53 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b565835e-805b-43f1-a3e4-d2aa823954c3")
+		)
+		(instances
+			(project "stm32"
+				(path "/807257e6-524f-404b-b91f-049b9c2bdd5b"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -14434,16 +14510,15 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 113.03 116.84 0)
+		(at 82.55 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98441c56-d95d-4f93-8c84-c0afed28e4bd")
-		(property "Reference" "#FLG01"
-			(at 113.03 114.935 0)
+		(uuid "92d8dd1d-8bca-4166-b5bd-a28352dfee92")
+		(property "Reference" "#FLG04"
+			(at 82.55 26.035 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14452,7 +14527,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 113.03 111.76 0)
+			(at 85.598 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14460,7 +14535,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.03 116.84 0)
+			(at 82.55 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14469,7 +14544,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 113.03 116.84 0)
+			(at 82.55 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14478,7 +14553,72 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 113.03 116.84 0)
+			(at 82.55 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b465b1cb-1eb9-4b9b-990f-23716cb04e26")
+		)
+		(instances
+			(project "stm32"
+				(path "/807257e6-524f-404b-b91f-049b9c2bdd5b"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 46.99 161.29 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98441c56-d95d-4f93-8c84-c0afed28e4bd")
+		(property "Reference" "#FLG01"
+			(at 46.99 163.195 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 52.832 163.068 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 46.99 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 46.99 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14490,7 +14630,7 @@
 			(uuid "66a02c19-d80b-4adc-998d-644429cede8e")
 		)
 		(instances
-			(project ""
+			(project "stm32"
 				(path "/807257e6-524f-404b-b91f-049b9c2bdd5b"
 					(reference "#FLG01")
 					(unit 1)
@@ -16491,7 +16631,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 49.69 19.05 0)
+		(at 49.53 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16499,7 +16639,7 @@
 		(dnp no)
 		(uuid "bb000010-0000-4000-8000-0000000000b1")
 		(property "Reference" "R20"
-			(at 51.69 19.05 0)
+			(at 51.53 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16507,7 +16647,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 47.69 19.05 0)
+			(at 47.53 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16515,7 +16655,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 49.69 19.05 90)
+			(at 49.53 19.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16524,7 +16664,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.69 19.05 0)
+			(at 49.53 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16533,7 +16673,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 49.69 19.05 0)
+			(at 49.53 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
